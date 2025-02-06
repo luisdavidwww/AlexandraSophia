@@ -1,0 +1,55 @@
+
+.header-container {
+    background-image: url('../images/Recurso 14-100.jpg');
+    background-color: rgba(0,0,0,0);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'PT Sans', sans-serif;
+  }
+
+
+  .tilte_Main{
+    font-family: 'Dragnie-Regular';
+    font-size: 5rem;
+  }
+  .tilte_Secundary{
+    font-family: 'Aurora-Magnollia';
+    font-size: 5rem;
+  }
+  .Subtilte_Main{
+    font-family: 'Aurora-Magnollia-two';
+    font-size: 5rem;
+  }
+
+
+
+
+  @media only screen and (max-width: 960px) { 
+
+   
+
+    .header-container {
+      background-image: url('../images/Recurso 14-100 Movil.jpg');
+      background-color: rgba(0,0,0,0);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-blend-mode: darken;
+      height: 90vh;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'PT Sans', sans-serif;
+    }
+
+
+
+  }
