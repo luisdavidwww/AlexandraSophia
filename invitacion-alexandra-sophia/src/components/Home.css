@@ -1,5 +1,21 @@
 
 
+.header-container {
+  background-image: url('../images/Recurso-1.jpg');
+  background-color: rgba(0,0,0,0);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  height: 600vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'PT Sans', sans-serif;
+}
+  
+  
   .tilte_Main{
     font-family: 'Dragnie-Regular';
     font-size: 5rem;
