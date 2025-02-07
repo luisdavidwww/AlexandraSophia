@@ -4,6 +4,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Invitado from '../components/Invitado';
 import Fecha from '../components/Fecha';
+import CuentaRegresiva from '../components/CuentaRegresiva';
 
 //Estilos diseño
 import './Home.css';
@@ -20,7 +21,11 @@ const Home = () => {
 
           <div>
             <Fecha />
-          </div>         
+          </div>   
+
+          <div>
+            <CuentaRegresiva />  
+          </div>      
 
     </>
   )
