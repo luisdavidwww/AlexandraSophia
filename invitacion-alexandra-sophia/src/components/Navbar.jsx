@@ -44,7 +44,7 @@ const Navbar = ({ scrollToSection, refs  }) => {
               className='nav-links-two'
               activeClassName='nav-links_active'
               onClick={() => {
-                scrollToSection(refs.familyRef);
+                scrollToSection(refs.invitadoRef);
                 closeMobileMenu();
               }}
             >
@@ -57,7 +57,7 @@ const Navbar = ({ scrollToSection, refs  }) => {
               className='nav-links-two'
               activeClassName='nav-links_active'
               onClick={() => {
-                scrollToSection(refs.fechaLugarRef);
+                scrollToSection(refs.fechaRef);
                 closeMobileMenu();
               }}
             >
@@ -70,7 +70,7 @@ const Navbar = ({ scrollToSection, refs  }) => {
               className='nav-links-two'
               activeClassName='nav-links_active'
               onClick={() => {
-                scrollToSection(refs.lugarFinRef);
+                scrollToSection(refs.lugarRef);
                 closeMobileMenu();
               }}
             >
@@ -83,7 +83,7 @@ const Navbar = ({ scrollToSection, refs  }) => {
               className='nav-links-two'
               activeClassName='nav-links_active'
               onClick={() => {
-                scrollToSection(refs.confirmarRef);
+                scrollToSection(refs.confirmaRef);
                 closeMobileMenu();
               }}
             >
