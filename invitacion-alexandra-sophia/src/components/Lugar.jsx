@@ -14,7 +14,8 @@ const Lugar = () => {
         </div>
         <div className='Lugar-container'>
 
-                  <div className='title-Conutdown' style={{marginTop:'5rem'}}> Av. Lara con Av. Francia, <br /> Barquisimeto. </div>
+                  <div className='title-Conutdown' style={{marginTop:'5rem'}}> Av. Principal de Las
+                  <br /> Cuibas, El Manzano. </div>
                   
                 <div className='us-text'>
                     <a href='https://maps.app.goo.gl/W8vtAhKsb9moCqow9' style={{textDecoration:'none'}}>
