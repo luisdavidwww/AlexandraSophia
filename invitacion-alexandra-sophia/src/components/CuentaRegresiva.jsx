@@ -43,6 +43,10 @@ const CuentaRegresiva = () => {
   return (
     <>
         <div className='CuentaRegresiva-container'>
+
+        <h1 className='title-Conutdown'>Contemos juntos para  <br /> el día de la celebración </h1>
+
+
           <div className='flex-container-main-Conutdown'>
           {Object.keys(timeLeft).length > 0 ? (
             <>

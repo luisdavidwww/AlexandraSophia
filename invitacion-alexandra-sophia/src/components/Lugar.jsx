@@ -8,9 +8,11 @@ const Lugar = () => {
   return (
     <>
         <div className='containerImg'>
-    <img src={Muchacha} className='imgAbsolute' alt="" />
-    </div>
-        <div className='Lugar-container'></div>  
+            <img src={Muchacha} className='imgAbsolute' alt="" />
+        </div>
+        <div className='Lugar-container'>
+          
+        </div>  
     </>
   )
 }
