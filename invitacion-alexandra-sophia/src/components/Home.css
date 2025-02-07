@@ -199,7 +199,119 @@
 
   @media only screen and (max-width: 960px) { 
 
-   
+    .header-container {
+      background-image: url('../images/Recurso-1.jpg');
+      background-size: 100% auto; /* Ancho completo, altura automática */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-blend-mode: darken;
+      width: 100%;
+      height: auto;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'PT Sans', sans-serif;
+    }
+
+    .Invitado-container {
+      background-image: url('../images/Recurso-2.jpg');
+      background-size: 100% auto; /* Ancho completo, altura automática */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-blend-mode: darken;
+      width: 100%;
+      height: auto;
+      min-height: 60vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'PT Sans', sans-serif;
+    }
+
+    .Fecha-container {
+      background-image: url('../images/Recurso-3.jpg');
+      background-size: 100% auto; /* Ancho completo, altura automática */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-blend-mode: darken;
+      width: 100%;
+      height: auto;
+      min-height: 120vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'PT Sans', sans-serif;
+    }
+    .CuentaRegresiva-container{
+      background-image: url('../images/Recurso-4.jpg');
+      background-size: 100% auto; /* Ancho completo, altura automática */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-blend-mode: darken;
+      width: 100%;
+      height: auto;
+      min-height: 52vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'PT Sans', sans-serif;
+    }
+
+    .Lugar-container{
+      background-image: url('../images/Recurso-5.jpg');
+      background-size: 100% auto; /* Ancho completo, altura automática */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-blend-mode: darken;
+      width: 100%;
+      height: auto;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'PT Sans', sans-serif;
+    
+    }
+    .Confirma-container{
+      background-image: url('../images/Recurso-7.jpg');
+      background-size: 100% auto; /* Ancho completo, altura automática */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-blend-mode: darken;
+      width: 100%;
+      height: auto;
+      min-height: 135vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'PT Sans', sans-serif;
+      padding: 0px;
+    }
+    
+    .EndLogo-container{
+      background-image: url('../images/Recurso-8.jpg');
+      background-size: 100% auto; /* Ancho completo, altura automática */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-blend-mode: darken;
+      width: 100%;
+      height: auto;
+      min-height: 20vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'PT Sans', sans-serif;
+    }
+
+   /*
 
     .header-container {
       background-image: url('../images/Recurso-1.jpg');
@@ -303,8 +415,7 @@
       align-items: center;
       font-family: 'PT Sans', sans-serif;
     }
-
-
+      */
 
     .containerImg{
       display: flex;
