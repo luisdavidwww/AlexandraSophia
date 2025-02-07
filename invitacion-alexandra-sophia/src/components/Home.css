@@ -201,7 +201,118 @@
 
     .header-container {
       background-image: url('../images/Recurso-1.jpg');
-      background-size: 100% auto; /* Ancho completo, altura automática */
+      background-size: cover; /* Ajusta la imagen sin deformarla */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-blend-mode: darken;
+      width: 100%;
+      height: 100vh; /* Siempre ocupa toda la pantalla */
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'PT Sans', sans-serif;
+    }
+    .Invitado-container {
+      background-image: url('../images/Recurso-2.jpg');
+      background-size: cover; /* Ajusta la imagen sin deformarla */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-blend-mode: darken;
+      width: 100%;
+      height: 60vh; /* Siempre ocupa toda la pantalla */
+      min-height: 60vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'PT Sans', sans-serif;
+    }
+
+    .Fecha-container {
+      background-image: url('../images/Recurso-3.jpg');
+      background-size: cover; /* Ajusta la imagen sin deformarla */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-blend-mode: darken;
+      width: 100%;
+      height: 120vh; /* Siempre ocupa toda la pantalla */
+      min-height: 120vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'PT Sans', sans-serif;
+    }
+    .CuentaRegresiva-container{
+      background-image: url('../images/Recurso-4.jpg');
+      background-size: cover; /* Ajusta la imagen sin deformarla */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-blend-mode: darken;
+      width: 100%;
+      height: 60vh; /* Siempre ocupa toda la pantalla */
+      min-height: 60vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'PT Sans', sans-serif;
+    }
+
+    .Lugar-container{
+      background-image: url('../images/Recurso-5.jpg');
+      background-size: cover; /* Ajusta la imagen sin deformarla */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-blend-mode: darken;
+      width: 100%;
+      height: 110vh; /* Siempre ocupa toda la pantalla */
+      min-height: 110vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'PT Sans', sans-serif;
+
+    }
+    .Confirma-container{
+      background-image: url('../images/Recurso-7.jpg');
+      background-size: cover; /* Ajusta la imagen sin deformarla */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-blend-mode: darken;
+      width: 100%;
+      height: 140vh; /* Siempre ocupa toda la pantalla */
+      min-height: 140vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'PT Sans', sans-serif;
+    }
+    
+    .EndLogo-container{
+      background-image: url('../images/Recurso-8.jpg');
+      background-size: cover; /* Ajusta la imagen sin deformarla */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-blend-mode: darken;
+      width: 100%;
+      height: 20vh; /* Siempre ocupa toda la pantalla */
+      min-height: 20vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'PT Sans', sans-serif;
+    }
+
+  /*
+    .header-container {
+      background-image: url('../images/Recurso-1.jpg');
+      background-size: 100% auto; 
       background-position: center;
       background-repeat: no-repeat;
       background-blend-mode: darken;
@@ -217,7 +328,7 @@
 
     .Invitado-container {
       background-image: url('../images/Recurso-2.jpg');
-      background-size: 100% auto; /* Ancho completo, altura automática */
+      background-size: 100% auto;
       background-position: center;
       background-repeat: no-repeat;
       background-blend-mode: darken;
@@ -233,7 +344,7 @@
 
     .Fecha-container {
       background-image: url('../images/Recurso-3.jpg');
-      background-size: 100% auto; /* Ancho completo, altura automática */
+      background-size: 100% auto;
       background-position: center;
       background-repeat: no-repeat;
       background-blend-mode: darken;
@@ -248,7 +359,7 @@
     }
     .CuentaRegresiva-container{
       background-image: url('../images/Recurso-4.jpg');
-      background-size: 100% auto; /* Ancho completo, altura automática */
+      background-size: 100% auto;
       background-position: center;
       background-repeat: no-repeat;
       background-blend-mode: darken;
@@ -264,7 +375,7 @@
 
     .Lugar-container{
       background-image: url('../images/Recurso-5.jpg');
-      background-size: 100% auto; /* Ancho completo, altura automática */
+      background-size: 100% auto; 
       background-position: center;
       background-repeat: no-repeat;
       background-blend-mode: darken;
@@ -280,7 +391,7 @@
     }
     .Confirma-container{
       background-image: url('../images/Recurso-7.jpg');
-      background-size: 100% auto; /* Ancho completo, altura automática */
+      background-size: 100% auto;
       background-position: center;
       background-repeat: no-repeat;
       background-blend-mode: darken;
@@ -297,7 +408,7 @@
     
     .EndLogo-container{
       background-image: url('../images/Recurso-8.jpg');
-      background-size: 100% auto; /* Ancho completo, altura automática */
+      background-size: 100% auto;
       background-position: center;
       background-repeat: no-repeat;
       background-blend-mode: darken;
@@ -311,8 +422,18 @@
       font-family: 'PT Sans', sans-serif;
     }
 
-   /*
+    */
 
+
+
+
+
+
+
+
+
+
+   /*
     .header-container {
       background-image: url('../images/Recurso-1.jpg');
       background-color: rgba(0,0,0,0);
