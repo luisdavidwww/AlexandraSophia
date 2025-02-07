@@ -6,7 +6,7 @@
   align-items: center;
   font-size: 1.1rem;
   position: sticky;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Dragnie-Regular';
   top: 0;
   z-index: 999;
   letter-spacing: 0.7px;
@@ -88,7 +88,7 @@
   display: flex;
   position: relative;
   color: rgb(197, 197, 197);
-  font-family:'Courier New', Courier, monospace;
+  font-family:'Dragnie-Regular';
   font-size: 1.3rem;
   text-decoration: none;
   padding: 0rem 0.5rem;
@@ -97,7 +97,7 @@
   margin-bottom: 0;
   position: relative;
   z-index: 999 !important;
-  letter-spacing: 0px;
+  letter-spacing: 2px;
 }
 
 

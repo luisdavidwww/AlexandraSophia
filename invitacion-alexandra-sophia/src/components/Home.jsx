@@ -2,18 +2,27 @@ import React from 'react';
 
 //componentes
 import Navbar from '../components/Navbar';
+import Invitado from '../components/Invitado';
+import Fecha from '../components/Fecha';
 
 //Estilos diseño
 import './Home.css';
 
 const Home = () => {
   return (
-    <div>
+    <>
       <Navbar />
+        <div className='header-container'></div>  
 
-      <div className='header-container'></div>  
+          <div>
+            <Invitado />
+          </div> 
 
-    </div>
+          <div>
+            <Fecha />
+          </div>         
+
+    </>
   )
 }
 
