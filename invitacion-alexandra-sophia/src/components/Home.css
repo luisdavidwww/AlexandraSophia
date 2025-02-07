@@ -62,7 +62,7 @@
     background-size: 50rem auto;
     background-repeat: no-repeat;
     background-blend-mode: darken;
-    height: 100vh;
+    height: 92vh;
     width: 50rem;
     display: flex;
     position: relative;
@@ -73,7 +73,58 @@
     align-items: center;
     text-align: center;
 }
-  
+.Lugar-container{
+  background-image: url('../images/Recurso-5.jpg');
+    background-color: rgba(0,0,0,0);
+    background-size: 50rem auto;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    height: 160vh;
+    width: 50rem;
+    display: flex;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%); /* Centra el contenedor horizontalmente */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Confirma-container{
+  background-image: url('../images/Recurso-7.jpg');
+    background-color: rgba(0,0,0,0);
+    background-size: 50rem auto;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    height: 210vh;
+    width: 50rem;
+    display: flex;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%); /* Centra el contenedor horizontalmente */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.EndLogo-container{
+  background-image: url('../images/Recurso-8.jpg');
+    background-color: rgba(0,0,0,0);
+    background-size: 50rem auto;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    height: 30vh;
+    width: 50rem;
+    display: flex;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%); /* Centra el contenedor horizontalmente */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
 
 
@@ -93,6 +144,22 @@
 
 
 
+  .containerImg{
+    display: flex;
+    position: relative;
+  }
+
+  .imgAbsolute{
+    display: flex;
+    position: absolute;
+    top: -50%;
+    width: 40%;
+    right: 0%;
+    z-index: 5;
+  }
+
+
+
 
   @media only screen and (max-width: 960px) { 
 
@@ -104,7 +171,7 @@
       background-size: contain;
       background-repeat: no-repeat;
       background-blend-mode: darken;
-      height: 121.8vh;
+      height: 131vh;
       width: 100%;
       display: flex;
       flex-direction: column;
@@ -119,7 +186,7 @@
       background-size: contain;
       background-repeat: no-repeat;
       background-blend-mode: darken;
-      height: 66vh;
+      height: 71vh;
       width: 100%;
       display: flex;
       flex-direction: column;
@@ -134,7 +201,7 @@
       background-size: contain;
       background-repeat: no-repeat;
       background-blend-mode: darken;
-      height: 123.7vh;
+      height: 133.7vh;
       width: 100%;
       display: flex;
       flex-direction: column;
@@ -149,7 +216,7 @@
       background-size: contain;
       background-repeat: no-repeat;
       background-blend-mode: darken;
-      height: 100vh;
+      height: 57.8vh;
       width: 100%;
       display: flex;
       flex-direction: column;
@@ -158,5 +225,63 @@
       font-family: 'PT Sans', sans-serif;
     }
 
+    .Lugar-container{
+      background-image: url('../images/Recurso-5.jpg');
+      background-color: rgba(0,0,0,0);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-blend-mode: darken;
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'PT Sans', sans-serif;
+    }
+    .Confirma-container{
+      background-image: url('../images/Recurso-7.jpg');
+      background-color: rgba(0,0,0,0);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-blend-mode: darken;
+      height: 135vh;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'PT Sans', sans-serif;
+    }
+    .EndLogo-container{
+      background-image: url('../images/Recurso-8.jpg');
+      background-color: rgba(0,0,0,0);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-blend-mode: darken;
+      height: 20vh;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'PT Sans', sans-serif;
+    }
+
+
+
+    .containerImg{
+      display: flex;
+      position: relative;
+    }
+
+    .imgAbsolute{
+      display: flex;
+      position: absolute;
+      top: -50%;
+      width: 55%;
+      right: 0%;
+      z-index: 5;
+    }
 
   }
