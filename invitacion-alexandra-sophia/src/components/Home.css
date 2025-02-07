@@ -4,10 +4,12 @@
 .header-container {
   background-image: url('../images/Recurso-1.jpg');
   background-color: rgba(0,0,0,0);
-  background-size: 50rem auto; /* Ancho fijo de 50rem, altura automática */
+  background-size: cover; /* Ancho fijo de 50rem, altura automática */
+  background-position: center;
   background-repeat: no-repeat;
   background-blend-mode: darken;
-  height: 200vh;
+  height: 100vh; /* Siempre ocupa toda la pantalla */
+  min-height: 220vh;
   width: 50rem;
   display: flex;
   position: relative;
@@ -22,91 +24,101 @@
 
 .Invitado-container {
   background-image: url('../images/Recurso-2.jpg');
-    background-color: rgba(0,0,0,0);
-    background-size: 50rem auto;
-    background-repeat: no-repeat;
-    background-blend-mode: darken;
-    height: 112vh;
-    width: 50rem;
-    display: flex;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%); /* Centra el contenedor horizontalmente */
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  background-color: rgba(0,0,0,0);
+  background-size: cover; /* Ancho fijo de 50rem, altura automática */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  height: 100vh; /* Siempre ocupa toda la pantalla */
+  min-height: 150vh;
+  width: 50rem;
+  display: flex;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%); /* Centra el contenedor horizontalmente */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .Fecha-container {
   background-image: url('../images/Recurso-3.jpg');
-    background-color: rgba(0,0,0,0);
-    background-size: 50rem auto;
-    background-repeat: no-repeat;
-    background-blend-mode: darken;
-    height: 210vh;
-    width: 50rem;
-    display: flex;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%); /* Centra el contenedor horizontalmente */
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  background-color: rgba(0,0,0,0);
+  background-size: cover; /* Ancho fijo de 50rem, altura automática */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  height: 100vh; /* Siempre ocupa toda la pantalla */
+  min-height: 250vh;
+  width: 50rem;
+  display: flex;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%); /* Centra el contenedor horizontalmente */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .CuentaRegresiva-container{
   background-image: url('../images/Recurso-4.jpg');
-    background-color: rgba(0,0,0,0);
-    background-size: 50rem auto;
-    background-repeat: no-repeat;
-    background-blend-mode: darken;
-    height: 92vh;
-    width: 50rem;
-    display: flex;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%); /* Centra el contenedor horizontalmente */
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  background-color: rgba(0,0,0,0);
+  background-size: cover; /* Ancho fijo de 50rem, altura automática */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  height: 100vh; /* Siempre ocupa toda la pantalla */
+  min-height: 120vh;
+  width: 50rem;
+  display: flex;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%); /* Centra el contenedor horizontalmente */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 .Lugar-container{
   background-image: url('../images/Recurso-5.jpg');
-    background-color: rgba(0,0,0,0);
-    background-size: 50rem auto;
-    background-repeat: no-repeat;
-    background-blend-mode: darken;
-    height: 160vh;
-    width: 50rem;
-    display: flex;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%); /* Centra el contenedor horizontalmente */
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  background-color: rgba(0,0,0,0);
+  background-size: cover; /* Ancho fijo de 50rem, altura automática */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  height: 100vh; /* Siempre ocupa toda la pantalla */
+  min-height: 180vh;
+  width: 50rem;
+  display: flex;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%); /* Centra el contenedor horizontalmente */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .Confirma-container{
   background-image: url('../images/Recurso-7.jpg');
-    background-color: rgba(0,0,0,0);
-    background-size: 50rem auto;
-    background-repeat: no-repeat;
-    background-blend-mode: darken;
-    height: 210vh;
-    width: 50rem;
-    display: flex;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%); /* Centra el contenedor horizontalmente */
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  background-color: rgba(0,0,0,0);
+  background-size: cover; /* Ancho fijo de 50rem, altura automática */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  height: 100vh; /* Siempre ocupa toda la pantalla */
+  min-height: 250vh;
+  width: 50rem;
+  display: flex;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%); /* Centra el contenedor horizontalmente */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 .EndLogo-container{
   background-image: url('../images/Recurso-8.jpg');
@@ -206,8 +218,8 @@
       background-repeat: no-repeat;
       background-blend-mode: darken;
       width: 100%;
-      height: 100vh; /* Siempre ocupa toda la pantalla */
-      min-height: 100vh;
+      height: 125vh; /* Siempre ocupa toda la pantalla */
+      min-height: 125vh;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -221,8 +233,8 @@
       background-repeat: no-repeat;
       background-blend-mode: darken;
       width: 100%;
-      height: 60vh; /* Siempre ocupa toda la pantalla */
-      min-height: 60vh;
+      height: 80vh; /* Siempre ocupa toda la pantalla */
+      min-height: 80vh;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -237,8 +249,8 @@
       background-repeat: no-repeat;
       background-blend-mode: darken;
       width: 100%;
-      height: 120vh; /* Siempre ocupa toda la pantalla */
-      min-height: 120vh;
+      height: 160vh; /* Siempre ocupa toda la pantalla */
+      min-height: 160vh;
       display: flex;
       flex-direction: column;
       justify-content: center;
