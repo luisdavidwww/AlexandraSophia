@@ -160,6 +160,41 @@
 
 
 
+  .btn-outline-one{
+    display: flex;
+    z-index: 100;
+    background-color: #8199c7;
+    padding: 2rem 4rem;
+    border: 2px solid #8199c7;
+    transition: all 0.3s ease-out;
+    border-radius: 50px;
+    text-decoration-line: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 0rem; 
+    font-family: 'Dragnie-Regular';
+    font-size: 2rem;
+    color: #ffffff;
+    margin-top: 2rem;
+    text-decoration: none;
+}
+
+.btn-outline-one:hover{
+  color: #394864;
+  background-color: rgb(200, 221, 255);
+  border: 2px solid rgb(200, 221, 255);
+}
+
+
+
+
+.Confirma-text{
+  display: flex;
+  margin-top: -50rem;
+}
+
+
+
 
   @media only screen and (max-width: 960px) { 
 
@@ -283,5 +318,43 @@
       right: 0%;
       z-index: 5;
     }
+
+
+
+
+
+    
+  .btn-outline-one{
+    display: flex;
+    z-index: 100;
+    background-color: #8199c7;
+    padding: 1rem 2rem;
+    border: 2px solid #8199c7;
+    transition: all 0.3s ease-out;
+    border-radius: 50px;
+    text-decoration-line: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 0rem; 
+    font-family: 'Dragnie-Regular';
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-top: 1rem;
+    text-decoration: none;
+}
+
+.btn-outline-one:hover{
+  color: #394864;
+  background-color: rgb(200, 221, 255);
+  border: 2px solid rgb(200, 221, 255);
+}
+
+
+.Confirma-text{
+  display: flex;
+  margin-top: -30rem;
+}
+
+
 
   }
