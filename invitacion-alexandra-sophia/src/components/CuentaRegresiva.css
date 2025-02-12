@@ -28,12 +28,17 @@
     width: 100%;
     text-align: center;
     font-family:'Dragnie-Regular';
+    font-weight: 800;
     font-size: 3rem;
     text-decoration: none;
-    letter-spacing: 1.5px;
+    letter-spacing: 3px;
     color: #608BBA;
-    margin-top: 0rem;
+    margin-top: 0.5rem;
     margin-bottom: 2rem;
+    /* Borde en la fuente */
+    text-shadow: 
+        -0.3px  0.3px 0 #608BBA,  
+         0.3px  0.3px 0 #608BBA; 
 }
 
 
@@ -43,11 +48,16 @@
   width: 100%;
   text-align: center;
   font-family: "castellar", sans-serif;
+  font-weight: 800;
   font-size: 1.3rem;
   text-decoration: none;
   letter-spacing: 2.0px;
   color: #ffffff;
   margin-top: 2rem;
+
+  text-shadow: 
+  -0.3px  0.3px 0 #608BBA,  
+   0.3px  0.3px 0 #608BBA; 
 }
 
 
@@ -71,6 +81,7 @@
     flex-direction: column;
     align-items: center;
     color: #608BBA;
+    
   }
   
   .time-value {
@@ -83,6 +94,7 @@
     font-size: 4rem; /* Tamaño del valor de tiempo */
     position: relative;
     margin-left: 1rem;
+    
   }
   
   .time-label {
@@ -121,11 +133,13 @@
     text-align: center;
     font-family:'Dragnie-Regular';
     font-size: 1.7rem;
+    font-weight: 900;
     text-decoration: none;
-    letter-spacing: 1.5px;
-    color: #485e82;
+    letter-spacing: 2px;
+    color: #608BBA;
     margin-top: 0rem;
     margin-bottom: 1rem;
+
 
   }
 
@@ -147,6 +161,13 @@
     letter-spacing: 1.6px;
     color: #485e82; /* Color del texto del label */
     margin-top: 10%;
+  }
+  .time-label.dia {
+    font-family:'Dragnie-Regular';
+    font-size: 0.8rem; /* Tamaño del label */
+    letter-spacing: 1.6px;
+    color: #485e82; /* Color del texto del label */
+    margin-top: 18%;
   }
 
   

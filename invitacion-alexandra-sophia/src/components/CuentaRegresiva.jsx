@@ -54,7 +54,7 @@ const CuentaRegresiva = () => {
                 <span className='time-value'>{timeLeft.days}
                   <span className='time-label-point'>:</span>
                 </span>
-                <span className='time-label'>DÍAS</span>
+                <span className='time-label dia' >DÍAS</span>
               </div>
               <div className='time-block'>
                 <span className='time-value'>{timeLeft.hours}
