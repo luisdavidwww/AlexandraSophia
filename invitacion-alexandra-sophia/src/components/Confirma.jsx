@@ -20,7 +20,7 @@ const Confirma = () => {
                   </div>
 
                   <div className='Confirma-text-two'>
-                      <a href='https://walink.co/8423e0' style={{textDecoration:'none'}}>
+                      <a href='https://drive.google.com/file/d/1YK9Ii2fVvYnOPCQ4-rhVT9Lh5cIwJlb9/view' style={{textDecoration:'none'}}>
                         <button className='btn-outline-one'
                             >Click Aquí
                         </button>
