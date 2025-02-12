@@ -1,5 +1,5 @@
 .navbar {
-  background: #485e82;
+  background: #497AA5;
   height: 60px;
   display: flex;
   justify-content: center;
@@ -116,7 +116,7 @@
   left: 0;
   width: 100%; /* Subrayado gris siempre visible */
   height: 2px;
-  background-color: #3c3b49; /* Color gris */
+  background-color: #365884; /* Color gris */
   z-index: -1; /* Coloca debajo del contenido */
 }
 
@@ -128,7 +128,7 @@
   left: 0;
   width: 0;
   height: 2px;
-  background-color: #A4EAFF ;
+  background-color: #DCF1FF ;
   transition: width 0.5s ease, left 0.5s ease; 
 }
 
@@ -176,7 +176,7 @@
 
   .nav-menu.active {
     display: block;
-    background: #485e82;
+    background: #497AA5;
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;

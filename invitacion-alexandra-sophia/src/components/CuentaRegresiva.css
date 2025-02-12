@@ -31,7 +31,7 @@
     font-size: 3rem;
     text-decoration: none;
     letter-spacing: 1.5px;
-    color: #485e82;
+    color: #608BBA;
     margin-top: 0rem;
     margin-bottom: 2rem;
 }
@@ -70,7 +70,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #485e82;
+    color: #608BBA;
   }
   
   .time-value {
@@ -89,7 +89,7 @@
     font-family:'Dragnie-Regular';
     font-size: 2; /* Tamaño del label */
     letter-spacing: 1px;
-    color: #485e82; /* Color del texto del label */
+    color: #608BBA; /* Color del texto del label */
     margin-top: 0px;
   }
 
