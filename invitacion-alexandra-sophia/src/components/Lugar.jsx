@@ -15,7 +15,7 @@ const Lugar = () => {
         <div className='Lugar-container'>
 
                   <div className='title-Conutdown' style={{marginTop:'5rem'}}> Av. Principal de Las
-                  <br /> Cuibas, El Manzano. </div>
+                  <br /> Cuibas, Agua Viva. </div>
                   
                 <div className='us-text'>
                     <a href='https://maps.app.goo.gl/W8vtAhKsb9moCqow9' style={{textDecoration:'none'}}>
